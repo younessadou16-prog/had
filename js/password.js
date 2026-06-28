@@ -30,7 +30,7 @@ class PasswordScene {
     checkPassword() {
         const val = this.input.value.trim();
         // Accepted passwords
-        if (val === '2008-01-05' || val === '090105' || val === '20080105') {
+        if (val === '2009-01-05' || val === '090105' || val === '20090105') {
             this.success();
         } else {
             this.error();
